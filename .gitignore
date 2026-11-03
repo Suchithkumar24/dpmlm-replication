@@ -1,6 +1,6 @@
 name_mapping_PRIVATE.csv
-PRIVATE
-name_mapping
+*PRIVATE*
+name_mapping*
 my_reviews.csv
 privatized_my_reviews.csv
 cache/
