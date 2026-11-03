@@ -1,0 +1,5 @@
+You are rating privacy-rewritten text. For each pair, score how well the REWRITTEN text preserves the meaning of the ORIGINAL review, from 1 to 5:
+1 = unrelated or nonsense, 2 = a few words of overlap but meaning lost, 3 = partly preserved, 4 = mostly preserved, 5 = same meaning.
+Judge meaning only, not grammar. Reply ONLY with CSV lines: pair_id,score
+
+(The 48 original/rewritten review pairs are not published. They come from the Yelp validation split and were given to the judge as P01 ... P48, each with an ORIGINAL and a REWRITTEN text.)
