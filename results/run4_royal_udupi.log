@@ -1,0 +1,82 @@
+GPU available: True (NVIDIA GeForce RTX 3050 Ti Laptop GPU)
+Task custom: 112 train, 48 validation examples
+Setting up DP-MLM resources...
+Γ£ô NLTK packages ready.
+Setup complete.
+Calibration: paper {'clip_min': -2.98106050491333, 'clip_max': 15.665252208709717, 'sensitivity': 18.646312713623047}
+Rewriting at epsilon=10...
+    eps=10: 25/112 rewritten, 5s elapsed
+    eps=10: 50/112 rewritten, 10s elapsed
+    eps=10: 75/112 rewritten, 14s elapsed
+    eps=10: 100/112 rewritten, 18s elapsed
+    eps=10: 112/112 rewritten, 21s elapsed
+    eps=10: 25/48 rewritten, 5s elapsed
+    eps=10: 48/48 rewritten, 9s elapsed
+Rewriting at epsilon=25...
+    eps=25: 25/112 rewritten, 4s elapsed
+    eps=25: 50/112 rewritten, 9s elapsed
+    eps=25: 75/112 rewritten, 14s elapsed
+    eps=25: 100/112 rewritten, 18s elapsed
+    eps=25: 112/112 rewritten, 21s elapsed
+    eps=25: 25/48 rewritten, 5s elapsed
+    eps=25: 48/48 rewritten, 9s elapsed
+Rewriting at epsilon=50...
+    eps=50: 25/112 rewritten, 5s elapsed
+    eps=50: 50/112 rewritten, 9s elapsed
+    eps=50: 75/112 rewritten, 14s elapsed
+    eps=50: 100/112 rewritten, 18s elapsed
+    eps=50: 112/112 rewritten, 21s elapsed
+    eps=50: 25/48 rewritten, 5s elapsed
+    eps=50: 48/48 rewritten, 9s elapsed
+Rewriting at epsilon=100...
+    eps=100: 25/112 rewritten, 4s elapsed
+    eps=100: 50/112 rewritten, 9s elapsed
+    eps=100: 75/112 rewritten, 14s elapsed
+    eps=100: 100/112 rewritten, 18s elapsed
+    eps=100: 112/112 rewritten, 21s elapsed
+    eps=100: 25/48 rewritten, 5s elapsed
+    eps=100: 48/48 rewritten, 9s elapsed
+Rewriting at epsilon=250...
+    eps=250: 25/112 rewritten, 5s elapsed
+    eps=250: 50/112 rewritten, 10s elapsed
+    eps=250: 75/112 rewritten, 14s elapsed
+    eps=250: 100/112 rewritten, 19s elapsed
+    eps=250: 112/112 rewritten, 22s elapsed
+    eps=250: 25/48 rewritten, 5s elapsed
+    eps=250: 48/48 rewritten, 9s elapsed
+Cleaning up...
+Γ£ô GPU VRAM cleared and garbage collected.
+Baseline (original text)...
+{'train_runtime': '8.782', 'train_samples_per_second': '38.26', 'train_steps_per_second': '2.391', 'train_loss': '1.263', 'epoch': '3'}
+{'train_runtime': '10.76', 'train_samples_per_second': '31.21', 'train_steps_per_second': '1.951', 'train_loss': '1.248', 'epoch': '3'}
+{'train_runtime': '7.86', 'train_samples_per_second': '42.75', 'train_steps_per_second': '2.672', 'train_loss': '1.345', 'epoch': '3'}
+Fine-tuning on epsilon=10 text...
+{'train_runtime': '9.626', 'train_samples_per_second': '34.91', 'train_steps_per_second': '2.182', 'train_loss': '1.32', 'epoch': '3'}
+{'train_runtime': '7.407', 'train_samples_per_second': '45.36', 'train_steps_per_second': '2.835', 'train_loss': '1.294', 'epoch': '3'}
+{'train_runtime': '8.31', 'train_samples_per_second': '40.43', 'train_steps_per_second': '2.527', 'train_loss': '1.355', 'epoch': '3'}
+Fine-tuning on epsilon=25 text...
+{'train_runtime': '7.611', 'train_samples_per_second': '44.15', 'train_steps_per_second': '2.759', 'train_loss': '1.252', 'epoch': '3'}
+{'train_runtime': '8.437', 'train_samples_per_second': '39.82', 'train_steps_per_second': '2.489', 'train_loss': '1.241', 'epoch': '3'}
+{'train_runtime': '15.23', 'train_samples_per_second': '22.06', 'train_steps_per_second': '1.379', 'train_loss': '1.351', 'epoch': '3'}
+Fine-tuning on epsilon=50 text...
+{'train_runtime': '7.598', 'train_samples_per_second': '44.22', 'train_steps_per_second': '2.764', 'train_loss': '1.264', 'epoch': '3'}
+{'train_runtime': '8.107', 'train_samples_per_second': '41.45', 'train_steps_per_second': '2.59', 'train_loss': '1.232', 'epoch': '3'}
+{'train_runtime': '8.858', 'train_samples_per_second': '37.93', 'train_steps_per_second': '2.371', 'train_loss': '1.315', 'epoch': '3'}
+Fine-tuning on epsilon=100 text...
+{'train_runtime': '10.29', 'train_samples_per_second': '32.65', 'train_steps_per_second': '2.041', 'train_loss': '1.272', 'epoch': '3'}
+{'train_runtime': '8.179', 'train_samples_per_second': '41.08', 'train_steps_per_second': '2.567', 'train_loss': '1.224', 'epoch': '3'}
+{'train_runtime': '8.839', 'train_samples_per_second': '38.01', 'train_steps_per_second': '2.376', 'train_loss': '1.328', 'epoch': '3'}
+Fine-tuning on epsilon=250 text...
+{'train_runtime': '8.142', 'train_samples_per_second': '41.27', 'train_steps_per_second': '2.579', 'train_loss': '1.234', 'epoch': '3'}
+{'train_runtime': '8.681', 'train_samples_per_second': '38.71', 'train_steps_per_second': '2.419', 'train_loss': '1.244', 'epoch': '3'}
+{'train_runtime': '8.051', 'train_samples_per_second': '41.73', 'train_steps_per_second': '2.608', 'train_loss': '1.31', 'epoch': '3'}
+
+      eps |    mine (mean+/-std) |   paper |  BLEU | cosine
+ baseline |        62.50 +/- 0.00 |         |  1.00 |   1.00
+       10 |        62.50 +/- 0.00 |         |  0.04 |   0.15
+       25 |        62.50 +/- 0.00 |         |  0.06 |   0.41
+       50 |        62.50 +/- 0.00 |         |  0.10 |   0.56
+      100 |        62.50 +/- 0.00 |         |  0.10 |   0.60
+      250 |        62.50 +/- 0.00 |         |  0.11 |   0.63
+
+Saved to results_royal_udupi.csv

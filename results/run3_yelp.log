@@ -1,0 +1,165 @@
+GPU available: True (NVIDIA GeForce RTX 3050 Ti Laptop GPU)
+Task custom: 398 train, 100 validation examples
+Setting up DP-MLM resources...
+Γ£ô NLTK packages ready.
+Setup complete.
+Calibration: paper {'clip_min': -2.98106050491333, 'clip_max': 15.665252208709717, 'sensitivity': 18.646312713623047}
+Rewriting at epsilon=10...
+    eps=10: 25/398 rewritten, 7s elapsed
+    eps=10: 50/398 rewritten, 13s elapsed
+    eps=10: 75/398 rewritten, 20s elapsed
+    eps=10: 100/398 rewritten, 27s elapsed
+    eps=10: 125/398 rewritten, 34s elapsed
+    eps=10: 150/398 rewritten, 41s elapsed
+    eps=10: 175/398 rewritten, 48s elapsed
+    eps=10: 200/398 rewritten, 55s elapsed
+    eps=10: 225/398 rewritten, 61s elapsed
+    eps=10: 250/398 rewritten, 67s elapsed
+    eps=10: 275/398 rewritten, 74s elapsed
+    eps=10: 300/398 rewritten, 82s elapsed
+    eps=10: 325/398 rewritten, 90s elapsed
+    eps=10: 350/398 rewritten, 96s elapsed
+    eps=10: 375/398 rewritten, 103s elapsed
+    eps=10: 398/398 rewritten, 109s elapsed
+    eps=10: 25/100 rewritten, 8s elapsed
+    eps=10: 50/100 rewritten, 15s elapsed
+    eps=10: 75/100 rewritten, 21s elapsed
+    eps=10: 100/100 rewritten, 30s elapsed
+Rewriting at epsilon=25...
+    eps=25: 25/398 rewritten, 7s elapsed
+    eps=25: 50/398 rewritten, 14s elapsed
+    eps=25: 75/398 rewritten, 22s elapsed
+    eps=25: 100/398 rewritten, 29s elapsed
+    eps=25: 125/398 rewritten, 36s elapsed
+    eps=25: 150/398 rewritten, 43s elapsed
+    eps=25: 175/398 rewritten, 51s elapsed
+    eps=25: 200/398 rewritten, 57s elapsed
+    eps=25: 225/398 rewritten, 64s elapsed
+    eps=25: 250/398 rewritten, 70s elapsed
+    eps=25: 275/398 rewritten, 78s elapsed
+    eps=25: 300/398 rewritten, 85s elapsed
+    eps=25: 325/398 rewritten, 94s elapsed
+    eps=25: 350/398 rewritten, 100s elapsed
+    eps=25: 375/398 rewritten, 107s elapsed
+    eps=25: 398/398 rewritten, 113s elapsed
+    eps=25: 25/100 rewritten, 8s elapsed
+    eps=25: 50/100 rewritten, 15s elapsed
+    eps=25: 75/100 rewritten, 22s elapsed
+    eps=25: 100/100 rewritten, 30s elapsed
+Rewriting at epsilon=50...
+    eps=50: 25/398 rewritten, 7s elapsed
+    eps=50: 50/398 rewritten, 14s elapsed
+    eps=50: 75/398 rewritten, 21s elapsed
+    eps=50: 100/398 rewritten, 28s elapsed
+    eps=50: 125/398 rewritten, 35s elapsed
+    eps=50: 150/398 rewritten, 42s elapsed
+    eps=50: 175/398 rewritten, 51s elapsed
+    eps=50: 200/398 rewritten, 57s elapsed
+    eps=50: 225/398 rewritten, 63s elapsed
+    eps=50: 250/398 rewritten, 70s elapsed
+    eps=50: 275/398 rewritten, 77s elapsed
+    eps=50: 300/398 rewritten, 85s elapsed
+    eps=50: 325/398 rewritten, 93s elapsed
+    eps=50: 350/398 rewritten, 99s elapsed
+    eps=50: 375/398 rewritten, 105s elapsed
+    eps=50: 398/398 rewritten, 112s elapsed
+    eps=50: 25/100 rewritten, 8s elapsed
+    eps=50: 50/100 rewritten, 15s elapsed
+    eps=50: 75/100 rewritten, 21s elapsed
+    eps=50: 100/100 rewritten, 30s elapsed
+Rewriting at epsilon=100...
+    eps=100: 25/398 rewritten, 7s elapsed
+    eps=100: 50/398 rewritten, 13s elapsed
+    eps=100: 75/398 rewritten, 20s elapsed
+    eps=100: 100/398 rewritten, 28s elapsed
+    eps=100: 125/398 rewritten, 35s elapsed
+    eps=100: 150/398 rewritten, 41s elapsed
+    eps=100: 175/398 rewritten, 50s elapsed
+    eps=100: 200/398 rewritten, 56s elapsed
+    eps=100: 225/398 rewritten, 63s elapsed
+    eps=100: 250/398 rewritten, 69s elapsed
+    eps=100: 275/398 rewritten, 77s elapsed
+    eps=100: 300/398 rewritten, 85s elapsed
+    eps=100: 325/398 rewritten, 93s elapsed
+    eps=100: 350/398 rewritten, 99s elapsed
+    eps=100: 375/398 rewritten, 106s elapsed
+    eps=100: 398/398 rewritten, 113s elapsed
+    eps=100: 25/100 rewritten, 8s elapsed
+    eps=100: 50/100 rewritten, 15s elapsed
+    eps=100: 75/100 rewritten, 22s elapsed
+    eps=100: 100/100 rewritten, 31s elapsed
+Rewriting at epsilon=250...
+    eps=250: 25/398 rewritten, 7s elapsed
+    eps=250: 50/398 rewritten, 14s elapsed
+    eps=250: 75/398 rewritten, 22s elapsed
+    eps=250: 100/398 rewritten, 30s elapsed
+    eps=250: 125/398 rewritten, 38s elapsed
+    eps=250: 150/398 rewritten, 45s elapsed
+    eps=250: 175/398 rewritten, 54s elapsed
+    eps=250: 200/398 rewritten, 61s elapsed
+    eps=250: 225/398 rewritten, 68s elapsed
+    eps=250: 250/398 rewritten, 75s elapsed
+    eps=250: 275/398 rewritten, 83s elapsed
+    eps=250: 300/398 rewritten, 91s elapsed
+    eps=250: 325/398 rewritten, 99s elapsed
+    eps=250: 350/398 rewritten, 106s elapsed
+    eps=250: 375/398 rewritten, 113s elapsed
+    eps=250: 398/398 rewritten, 120s elapsed
+    eps=250: 25/100 rewritten, 9s elapsed
+    eps=250: 50/100 rewritten, 16s elapsed
+    eps=250: 75/100 rewritten, 23s elapsed
+    eps=250: 100/100 rewritten, 32s elapsed
+Cleaning up...
+Γ£ô GPU VRAM cleared and garbage collected.
+Baseline (original text)...
+{'loss': '0.8239', 'grad_norm': '3.022', 'learning_rate': '1.12e-05', 'epoch': '2'}
+{'train_runtime': '44.12', 'train_samples_per_second': '27.06', 'train_steps_per_second': '1.7', 'train_loss': '0.6133', 'epoch': '3'}
+{'loss': '0.7422', 'grad_norm': '0.7024', 'learning_rate': '1.16e-05', 'epoch': '2'}
+{'train_runtime': '48.11', 'train_samples_per_second': '24.82', 'train_steps_per_second': '1.559', 'train_loss': '0.5552', 'epoch': '3'}
+{'loss': '0.8394', 'grad_norm': '4.462', 'learning_rate': '1.12e-05', 'epoch': '2'}
+{'train_runtime': '47.85', 'train_samples_per_second': '24.95', 'train_steps_per_second': '1.567', 'train_loss': '0.6164', 'epoch': '3'}
+Fine-tuning on epsilon=10 text...
+{'loss': '1.383', 'grad_norm': '6.132', 'learning_rate': '1.04e-05', 'epoch': '2'}
+{'train_runtime': '35.32', 'train_samples_per_second': '33.8', 'train_steps_per_second': '2.123', 'train_loss': '1.293', 'epoch': '3'}
+{'loss': '1.336', 'grad_norm': '23.76', 'learning_rate': '1.08e-05', 'epoch': '2'}
+{'train_runtime': '46.13', 'train_samples_per_second': '25.88', 'train_steps_per_second': '1.626', 'train_loss': '1.231', 'epoch': '3'}
+{'loss': '1.281', 'grad_norm': '31.43', 'learning_rate': '1.16e-05', 'epoch': '2'}
+{'train_runtime': '50.11', 'train_samples_per_second': '23.82', 'train_steps_per_second': '1.497', 'train_loss': '1.177', 'epoch': '3'}
+Fine-tuning on epsilon=25 text...
+{'loss': '1.164', 'grad_norm': '4.302', 'learning_rate': '1.08e-05', 'epoch': '2'}
+{'train_runtime': '56.11', 'train_samples_per_second': '21.28', 'train_steps_per_second': '1.337', 'train_loss': '0.9936', 'epoch': '3'}
+{'loss': '0.9936', 'grad_norm': '56.37', 'learning_rate': '1.16e-05', 'epoch': '2'}
+{'train_runtime': '44.22', 'train_samples_per_second': '27', 'train_steps_per_second': '1.696', 'train_loss': '0.8254', 'epoch': '3'}
+{'loss': '1.209', 'grad_norm': '26.27', 'learning_rate': '1.12e-05', 'epoch': '2'}
+{'train_runtime': '53.51', 'train_samples_per_second': '22.32', 'train_steps_per_second': '1.402', 'train_loss': '1.066', 'epoch': '3'}
+Fine-tuning on epsilon=50 text...
+{'loss': '1.084', 'grad_norm': '31.96', 'learning_rate': '1.16e-05', 'epoch': '2'}
+{'train_runtime': '46.24', 'train_samples_per_second': '25.82', 'train_steps_per_second': '1.622', 'train_loss': '0.8846', 'epoch': '3'}
+{'loss': '1.022', 'grad_norm': '3.506', 'learning_rate': '1.12e-05', 'epoch': '2'}
+{'train_runtime': '47.51', 'train_samples_per_second': '25.13', 'train_steps_per_second': '1.579', 'train_loss': '0.7948', 'epoch': '3'}
+{'loss': '1.176', 'grad_norm': '8.919', 'learning_rate': '1.16e-05', 'epoch': '2'}
+{'train_runtime': '52.09', 'train_samples_per_second': '22.92', 'train_steps_per_second': '1.44', 'train_loss': '1.006', 'epoch': '3'}
+Fine-tuning on epsilon=100 text...
+{'loss': '1.166', 'grad_norm': '4.654', 'learning_rate': '1.12e-05', 'epoch': '2'}
+{'train_runtime': '50.1', 'train_samples_per_second': '23.83', 'train_steps_per_second': '1.497', 'train_loss': '0.9537', 'epoch': '3'}
+{'loss': '0.9346', 'grad_norm': '10.44', 'learning_rate': '1.16e-05', 'epoch': '2'}
+{'train_runtime': '38.84', 'train_samples_per_second': '30.74', 'train_steps_per_second': '1.931', 'train_loss': '0.7314', 'epoch': '3'}
+{'loss': '1.017', 'grad_norm': '20.48', 'learning_rate': '1.16e-05', 'epoch': '2'}
+{'train_runtime': '48.49', 'train_samples_per_second': '24.62', 'train_steps_per_second': '1.547', 'train_loss': '0.881', 'epoch': '3'}
+Fine-tuning on epsilon=250 text...
+{'loss': '1.089', 'grad_norm': '16.61', 'learning_rate': '1.16e-05', 'epoch': '2'}
+{'train_runtime': '55.35', 'train_samples_per_second': '21.57', 'train_steps_per_second': '1.355', 'train_loss': '0.8651', 'epoch': '3'}
+{'loss': '1.026', 'grad_norm': 'inf', 'learning_rate': '1.12e-05', 'epoch': '2'}
+{'train_runtime': '34.02', 'train_samples_per_second': '35.09', 'train_steps_per_second': '2.204', 'train_loss': '0.8064', 'epoch': '3'}
+{'loss': '0.9997', 'grad_norm': '3.876', 'learning_rate': '1.12e-05', 'epoch': '2'}
+{'train_runtime': '49.94', 'train_samples_per_second': '23.91', 'train_steps_per_second': '1.502', 'train_loss': '0.8251', 'epoch': '3'}
+
+      eps |    mine (mean+/-std) |   paper |  BLEU | cosine
+ baseline |        95.67 +/- 1.25 |         |  1.00 |   1.00
+       10 |        69.33 +/- 2.36 |         |  0.06 |   0.17
+       25 |        87.33 +/- 2.87 |         |  0.07 |   0.43
+       50 |        89.67 +/- 1.25 |         |  0.12 |   0.62
+      100 |        93.00 +/- 2.16 |         |  0.13 |   0.65
+      250 |        87.00 +/- 0.82 |         |  0.15 |   0.67
+
+Saved to results_yelp.csv
