@@ -1,0 +1,65 @@
+﻿python : Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate 
+limits and faster downloads.
+At line:1 char:1
++ python diag_epsilon.py 2>&1 | Out-File -Encoding utf8 diag_output.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Warning: You ar...ster downloads.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Setting up DP-MLM resources...
+Γ£ô NLTK packages ready.
+Setup complete.
+
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]
+Loading weights: 100%|ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê| 202/202 [00:00<00:00, 6944.55it/s]
+
+Measuring Logits:   0%|          | 0/63 [00:00<?, ?it/s]
+Measuring Logits:   2%|ΓûÅ         | 1/63 [00:00<00:19,  3.11it/s]
+Measuring Logits:   6%|Γûï         | 4/63 [00:00<00:05, 10.51it/s]
+Measuring Logits:  11%|Γûê         | 7/63 [00:00<00:03, 14.51it/s]
+Measuring Logits:  16%|ΓûêΓûî        | 10/63 [00:00<00:03, 17.51it/s]
+Measuring Logits:  21%|ΓûêΓûê        | 13/63 [00:00<00:02, 19.96it/s]
+Measuring Logits:  25%|ΓûêΓûêΓûî       | 16/63 [00:00<00:02, 20.90it/s]
+Measuring Logits:  30%|ΓûêΓûêΓûê       | 19/63 [00:01<00:02, 20.61it/s]
+Measuring Logits:  35%|ΓûêΓûêΓûêΓûì      | 22/63 [00:01<00:01, 21.52it/s]
+Measuring Logits:  40%|ΓûêΓûêΓûêΓûë      | 25/63 [00:01<00:01, 21.89it/s]
+Measuring Logits:  44%|ΓûêΓûêΓûêΓûêΓûì     | 28/63 [00:01<00:01, 22.51it/s]
+Measuring Logits:  49%|ΓûêΓûêΓûêΓûêΓûë     | 31/63 [00:01<00:01, 23.13it/s]
+Measuring Logits:  54%|ΓûêΓûêΓûêΓûêΓûêΓûì    | 34/63 [00:01<00:01, 22.97it/s]
+Measuring Logits:  59%|ΓûêΓûêΓûêΓûêΓûêΓûè    | 37/63 [00:01<00:01, 23.44it/s]
+Measuring Logits:  63%|ΓûêΓûêΓûêΓûêΓûêΓûêΓûÄ   | 40/63 [00:02<00:00, 23.23it/s]
+Measuring Logits:  68%|ΓûêΓûêΓûêΓûêΓûêΓûêΓûè   | 43/63 [00:02<00:00, 22.68it/s]
+Measuring Logits:  73%|ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûÄ  | 46/63 [00:02<00:00, 22.63it/s]
+Measuring Logits:  78%|ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûè  | 49/63 [00:02<00:00, 22.74it/s]
+Measuring Logits:  83%|ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûÄ | 52/63 [00:02<00:00, 22.91it/s]
+Measuring Logits:  87%|ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûï | 55/63 [00:02<00:00, 22.49it/s]
+Measuring Logits:  92%|ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûÅ| 58/63 [00:02<00:00, 23.16it/s]
+Measuring Logits:  97%|ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûï| 61/63 [00:02<00:00, 23.05it/s]
+Measuring Logits: 100%|ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê| 63/63 [00:02<00:00, 21.02it/s]
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+Loading weights: 100%|ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê| 103/103 [00:00<00:00, 2635.95it/s]
+
+=== DEFAULT: clip=(-21.46, -14.15), sensitivity=7.32
+
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]
+Loading weights: 100%|ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê| 202/202 [00:00<00:00, 2716.65it/s]
+epsilon | mean cosine | example rewrite
+     10 |       0.058 | the glac was lacks deal and the ss was assessments.
+     50 |       0.089 | the 136 was sa blast and the ∩┐╜ was lofty.
+    250 |       0.063 | the erate was ush dlc and the psychiatry was works.
+   1000 |       0.273 | the 1070 was unlimited 14 and the they was organisms.
+Cleaning up...
+Γ£ô GPU VRAM cleared and garbage collected.
+
+=== PAPER (mean, mean+4std): clip=(-2.98, 15.67), sensitivity=18.65
+
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]
+Loading weights: 100%|ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê| 202/202 [00:00<00:00, 7481.50it/s]
+epsilon | mean cosine | example rewrite
+     10 |       0.122 | the note was camel discriminating and the managers was charitable.
+     50 |       0.541 | the cooking was aptly renowned and the serve was exemplary.
+    250 |       0.620 | the food was purely marvelous and the service was superior.
+   1000 |       0.650 | the food was indeed vital and the service was exceptional.
+Cleaning up...
+Γ£ô GPU VRAM cleared and garbage collected.

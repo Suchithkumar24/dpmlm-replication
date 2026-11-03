@@ -1,0 +1,6 @@
+raw rows: 354
+after dropping missing rating/text: 353
+empty after stripping Google metadata: 102
+exact duplicates removed: 0 -> 251 rows
+kept 10-60 words: 168 rows; ratings {1: 48, 2: 11, 3: 8, 4: 15, 5: 86}
+wrote royal_udupi_clean.csv (168 reviews, 166 reviewers)
